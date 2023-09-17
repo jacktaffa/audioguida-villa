@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  distDir: 'build',
+
 };
 const runtimeCaching = require("next-pwa/cache");
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
@@ -19,7 +21,7 @@ module.exports = nextTranslate(withPWA({
     dest: 'public',
     disable: process.env.NODE_ENV === 'development',
   },
-
+  distDir: 'build',
   reactStrictMode: true,
   images: {
     remotePatterns: [
