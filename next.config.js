@@ -21,7 +21,7 @@ module.exports = nextTranslate(withPWA({
     dest: 'public',
     disable: process.env.NODE_ENV === 'development',
   },
-  distDir: 'build',
+  //distDir: 'build',
   reactStrictMode: true,
   images: {
     remotePatterns: [
