@@ -47,7 +47,7 @@ export async function getStaticPaths() {
 
 
 // This also gets called at build time
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   const apiURL =  "https://www.villaselvaticoterme.it/wp-json/jet-cct/points/"
 
     // params contains the post `id`.
