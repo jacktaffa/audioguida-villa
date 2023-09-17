@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/revalidate": "pages/api/revalidate.js",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/points": "pages/points.js",
+  "/points/[id]": "pages/points/[id].js",
+  "/it/404": "pages/it/404.html",
+  "/en/404": "pages/en/404.html",
+  "/de/404": "pages/de/404.html",
+  "/it/500": "pages/it/500.html",
+  "/en/500": "pages/en/500.html",
+  "/de/500": "pages/de/500.html"
+}
