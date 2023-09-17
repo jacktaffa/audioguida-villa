@@ -57,7 +57,7 @@ export default function Home(props) {
     </div>
     <button className="bg-main hover:bg-secondary  text-white  py-2 px-16 rounded-full disabled:opacity-50" disabled={(selectedLanguage != null)}
      onClick={handleChangeLanguage}> 
-     {t('continua')} </button>
+     {t('continua')} </button> 
     </main>
   )
 }
