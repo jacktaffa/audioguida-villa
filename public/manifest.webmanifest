@@ -1,0 +1,22 @@
+    { 
+        "name": "Audioguida Villa Selvatico",
+        "short_name": "Audioguida",
+        "theme_color": "#ffffff",
+        "background_color": "#006867",
+        "display": "fullscreen",
+        "scope": "/",
+        "start_url": "/",
+        "id":"/",
+        "icons": [
+            {
+                "src": "/images/iconx48.jpg",
+                "type": "image/png",
+                "sizes": "48×48"
+            }, 
+            {
+                "src": "/images/iconx72.jpg",
+                "sizes": "72×72",
+                "type": "image/png"
+            }
+        ] 
+    }

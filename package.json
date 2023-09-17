@@ -1,0 +1,33 @@
+{
+  "name": "audioguida",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@next/font": "^13.4.6",
+    "autoprefixer": "10.4.14",
+    "intl-pluralrules": "^2.0.1",
+    "next": "13.3.4",
+    "next-pwa": "^5.6.0",
+    "next-translate": "^2.3.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "sharp": "^0.32.1",
+    "swiper": "^9.2.4",
+    "tailwindcss": "3.3.2",
+    "use-sound": "^4.0.1"
+  },
+  "devDependencies": {
+    "next-translate-plugin": "^2.3.0"
+  },
+  "presets": [
+    "next/babel"
+  ]
+}

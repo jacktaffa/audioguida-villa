@@ -1,0 +1,84 @@
+:root{
+    --main-color: #006867;
+    --white: #EDE7E1;
+}
+
+
+.language-name{
+    text-transform: uppercase;
+}
+.hiddenCheckbox{
+    visibility: hidden;
+    width: 0;;
+}
+.customCheckbox{
+    content: "";
+    aspect-ratio: 1;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    display: inline-block;;
+}
+.hiddenCheckbox + label .customCheckbox .tick{
+    display: none;
+    width: 100%;
+}
+.hiddenCheckbox:checked + label .customCheckbox .tick{
+    display: block;
+    height: 28px;
+}
+
+.hiddenCheckbox:checked + .languageLabel{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.language-flag{
+   aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+.text-main{
+    color:var(--main-color)
+}
+.bg-secondary{
+    background-color: var(--white);
+}
+
+
+audio::-webkit-media-controls-enclosure{
+    border-radius: 0!important;
+    background: var(--main-color);
+}
+
+audio::-webkit-media-controls.state-playing input[pseudo="-webkit-media-controls-play-button" i], audio::-webkit-media-controls-time-remaining-display{
+    filter: invert(1);
+}
+audio::-webkit-media-controls-panel *{
+    color:white;
+}
+
+audio::-webkit-media-controls-panel,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button,
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-toggle-closed-captions-button,
+input[pseudo="-webkit-media-controls-timeline" i]::-internal-track-segment-highlight-after
+    {
+    filter: invert(1);
+    color:white
+}
