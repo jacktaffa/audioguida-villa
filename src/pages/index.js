@@ -10,17 +10,17 @@ import{useState} from 'react'
 const inter = Jost({ subsets: ['latin'] })
 const languages = [
   {
-    locale: "IT", 
+    locale: "it", 
     image: "/images/IT.svg", 
     name: "Italiano"
   },
   {
-    locale: "EN", 
+    locale: "en", 
     image: "/images/EN.svg",
     name: "English"
   },
   {
-    locale: "DE", 
+    locale: "de", 
     image: "/images/DE.svg",
     name: "Deutsch"
   }
